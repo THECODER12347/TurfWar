@@ -4,6 +4,7 @@ form.addEventListener("submit", function (params) {
     params.preventDefaults();
     
     draftUpCheck(params);
+    return false;
 })
 
 function draftUpCheck(data) {
