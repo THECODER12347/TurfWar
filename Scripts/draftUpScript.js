@@ -2,13 +2,13 @@ const form = document.getElementById("draftForm");
 
 form.addEventListener("submit", function (params) {
     params.preventDefault();
-    
+    alert("ASDFASDFAJJ");
     draftUpCheck(params);
     return false;
 })
 
 function draftUpCheck(data) {
     const formData = new FormData(data.target);
-    alert("Jqlwerkjqwlerkj")
+    alert("Jqlwerkjqwlerkj");
     alert(formData.get("username")+"|"+formData.get("password"));
 }
