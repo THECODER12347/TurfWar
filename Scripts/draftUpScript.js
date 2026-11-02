@@ -9,5 +9,6 @@ form.addEventListener("submit", function (params) {
 
 function draftUpCheck(data) {
     const formData = new FormData(data.target);
+    alert("Jqlwerkjqwlerkj")
     alert(formData.get("username")+"|"+formData.get("password"));
 }
