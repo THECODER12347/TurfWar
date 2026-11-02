@@ -1,13 +1,13 @@
-const form = document.getElementByID("draftForm");
+const form = document.getElementById("draftForm");
 
 form.addEventListener("submit", function (params) {
-    params.preventDefaults();
+    params.preventDefault();
     
     draftUpCheck(params);
     return false;
 })
 
 function draftUpCheck(data) {
-    const formData = new FordData(data.target);
+    const formData = new FormData(data.target);
     alert(formData.get("username")+"|"+formData.get("password"));
 }
