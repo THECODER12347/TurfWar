@@ -5,7 +5,7 @@ form.addEventListener("submit", function (params) {
     alert("ASDFASDFAJJ");
     draftUpCheck(params);
     return false;
-})
+});
 
 function draftUpCheck(data) {
     const formData = new FormData(data.target);
