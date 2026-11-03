@@ -1,5 +1,7 @@
 const form = document.getElementById("draftForm");
 
+alert("Hello");
+
 form.addEventListener("submit", function (params) {
     params.preventDefault();
     alert("ASDFASDFAJJ");
